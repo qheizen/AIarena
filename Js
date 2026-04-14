@@ -1,0 +1,144 @@
+# Установка
+go install github.com/003random/getJS@latest
+
+# Извлечь все JS с домена
+echo "https://example.com" | getJS
+
+# С поддоменов
+cat subdomains.txt | getJS --complete
+
+# Сохранить результаты
+echo "https://example.com" | getJS > js_files.txt
+
+# Установка
+go install github.com/003random/getJS@latest
+
+# Извлечь все JS с домена
+echo "https://example.com" | getJS
+
+# С поддоменов
+cat subdomains.txt | getJS --complete
+
+# Сохранить результаты
+echo "https://example.com" | getJS > js_files.txt
+
+
+
+
+# Установка
+go install github.com/003random/getJS@latest
+
+# Извлечь все JS с домена
+echo "https://example.com" | getJS
+
+# С поддоменов
+cat subdomains.txt | getJS --complete
+
+# Сохранить результаты
+echo "https://example.com" | getJS > js_files.txt
+
+
+
+
+
+# Установка
+go install github.com/003random/getJS@latest
+
+# Извлечь все JS с домена
+echo "https://example.com" | getJS
+
+# С поддоменов
+cat subdomains.txt | getJS --complete
+
+# Сохранить результаты
+echo "https://example.com" | getJS > js_files.txt
+
+
+
+
+
+# Найдены JS файлы
+dirsearch -u http://example.com -e js
+
+# Извлечение API endpoints из JS
+curl http://example.com/app.js | grep -oP "(https?://[^\"']+|/api/[^\"']+)"
+
+# Поиск секретов в JS
+curl http://example.com/app.js | grep -iE "(api_key|password|secret|toke
+
+
+
+
+
+# Найдены JS файлы
+dirsearch -u http://example.com -e js
+
+# Извлечение API endpoints из JS
+curl http://example.com/app.js | grep -oP "(https?://[^\"']+|/api/[^\"']+)"
+
+# Поиск секретов в JS
+curl http://example.com/app.js | grep -iE "(api_key|password|secret|token)
+
+
+
+
+
+
+
+
+
+# Сканирование
+dirsearch -u http://example.com -e zip,tar.gz,bak,old,sql
+
+# Найденные файлы:
+# [200] http://example.com/backup.zip
+# [200] http://example.com/db_backup.sql
+# [200] http://example.com/.git/config
+
+# Скачивание
+wget http://example.com/backup.zip
+wget http://example.com/db_backup.sql
+
+# Для .git репозитория
+git-dumper http://example.com/.git/ ./output"n)"
+
+
+
+
+
+
+
+# Сканирование
+dirsearch -u http://example.com -e zip,tar.gz,bak,old,sql
+
+# Найденные файлы:
+# [200] http://example.com/backup.zip
+# [200] http://example.com/db_backup.sql
+# [200] http://example.com/.git/config
+
+# Скачивание
+wget http://example.com/backup.zip
+wget http://example.com/db_backup.sql
+
+# Для .git репозитория
+git-dumper http://example.com/.git/ ./output
+
+
+
+
+
+Ручное тестирование (Repeater)
+Отправить запрос в Repeater (ПКМ → Send to Repeater)
+Модифицировать параметры
+Тестировать на:
+SQL Injection (' OR 1=1--)
+XSS (<script>alert(1)</script>)
+Path Traversal (../../etc/passwd)
+Изменение прав доступа
+
+
+
+
+
+
+
